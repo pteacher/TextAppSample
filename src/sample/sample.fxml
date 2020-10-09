@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextArea fx:id="textEditArea" prefHeight="356.0" prefWidth="600.0" />
+      <Button fx:id="saveBUtton" mnemonicParsing="false" onAction="#saveText" prefHeight="37.0" prefWidth="637.0" text="Save" />
+      <Button mnemonicParsing="false" onAction="#readText" prefHeight="38.0" prefWidth="636.0" text="Read" />
+   </children>
+</VBox>
